@@ -1,0 +1,144 @@
+/* .head{
+    margin-left: 43%;
+    font-style: italic;
+    font-size:xx-large;
+    color: darkblue;    
+}
+.link{
+   font-size: x-large;
+   color:red;
+}
+
+.buttons{
+    color: red;
+    align-items: center;
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;}
+    .button1{
+        border: none;
+    background-color: black;
+}
+.labels{
+    background-color: cyan;
+} */
+.backgroud{
+    background-image: url("bookstore.avif");
+    background-size:cover;
+}
+.topnav a:hover{
+    cursor: pointer;
+    color:#f2c55b;
+  }
+  .topnav{
+    width:100%;
+    height: 100vh;
+    position:relative;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-items:right;
+  }
+  .nav{
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    padding:5px 0%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  }
+  #head{
+    /* padding-left:50px; */
+    font-size:70px;
+    font-family:Brush Script MT;/* 'Marcellus'; */
+    text-decoration: none;
+    margin-left: 50px;
+    color:#640f0f;
+    z-index:1;
+    opacity: 1;
+    text-shadow: 1px 1px 3px black;
+  }
+  nav .name{
+    display:flex;
+    align-items: center;
+  }
+  nav:first-child{
+    margin-left:2rem;
+    margin-right:auto;
+  }
+  nav  ul li a:visited{
+    color:rgb(239, 233, 233);
+  }
+  nav ul li a:link{
+    color:rgb(239, 235, 235);
+  }
+  nav .logo{
+    width: 60px;
+    height:60px;
+  }
+  nav ul{
+    align-items: center;
+    opacity: 10;
+    z-index:1;
+  }
+  nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin-left:40px;
+    color:rgb(237, 231, 231);
+  }
+  nav ul li a{
+    text-decoration:none;
+    font-size:20px;
+    /* outline-color: black; */
+    outline-width: 100px;
+    text-shadow: 0.2px 0.2px 3px black;
+  
+  }
+  
+  #loginbutton{
+    margin-left:40px;
+    margin-top: -7.5px;
+    font-family: 'Marcellus';
+    float: right;
+    align-items: center;
+    appearance: none;
+    background-color: #f7f2f2;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+      rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    height: 40px;
+    justify-content: center;
+    letter-spacing: 0.25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 0px 20px 2px;
+    position: relative;
+    text-align: right;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1),
+      opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform, opacity;
+    z-index: 0;
+  }
+  #loginbutton:hover{
+    background-color: #A9976D;
+    color: white;
+  }
