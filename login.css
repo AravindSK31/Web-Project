@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image:url("bookstore.webp");
+    background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+	  height: 100%;
+}
+
+.container {
+    text-align: center;
+}
+
+fieldset {
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.labels {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.buttons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.buttons:hover {
+    background-color: #0056b3;
+}
+
+.paragraph-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.paragraph-container p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.paragraph-container a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.paragraph-container a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.paragraph-container .divider {
+    margin: 15px 0;
+    border-top: 1px solid #ccc;
+}
+
+.paragraph-container button {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.paragraph-container button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.paragraph-container button:hover {
+    background-color: #004080;
+}
+
